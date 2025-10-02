@@ -4,7 +4,7 @@
     "": {
       "name": "@tsci/Heinrich-XIAO.greenboard",
       "dependencies": {
-        "@tsci/Heinrich-XIAO.greenpill": "^1.0.15",
+        "@tsci/Heinrich-XIAO.greenpill": "^1.0.16",
         "@tscircuit/common": "^0.0.5",
       },
       "devDependencies": {
@@ -58,7 +58,7 @@
 
     "@tsci/Heinrich-XIAO.CH32V003F4P6": ["@tsci/Heinrich-XIAO.CH32V003F4P6@0.1.0", "https://registry-api.tscircuit.com/package_files/download?package_name=heinrich-xiao%2Fch32v003f4p6&package_file_id=ab00995e-21b9-4342-85ba-c7a2e2d26656", {}, "sha512-bezhZ363yJIve54SwXqKJwIDGFNW0OahWRktywYYnwpFWhs36QGbYj9IUTB/kEFqrQEm7bZ1ZMYqChoKgF82mA=="],
 
-    "@tsci/Heinrich-XIAO.greenpill": ["@tsci/Heinrich-XIAO.greenpill@1.0.15", "https://registry-api.tscircuit.com/package_files/download?package_name=heinrich-xiao%2Fgreenpill&package_file_id=57a248d0-ca10-4b45-882a-c346d4f772ad", { "dependencies": { "@tsci/Heinrich-XIAO.CH32V003F4P6": "^0.1.0", "@tsci/seveibar.push-button": "^0.1.0", "tscircuit": "^0.0.701" } }, "sha512-qhIE/c19myWp0IWRUTizHd8/8buSRpebQpQmjliuhhf3Kod+j+DDbYciN3RUbulQanGF6/ajpriQFy8HWM+fkQ=="],
+    "@tsci/Heinrich-XIAO.greenpill": ["@tsci/Heinrich-XIAO.greenpill@1.0.16", "https://registry-api.tscircuit.com/package_files/download?package_name=heinrich-xiao%2Fgreenpill&package_file_id=262a2d01-1eb2-4817-8c01-3cb9ca5960b5", { "dependencies": { "@tsci/Heinrich-XIAO.CH32V003F4P6": "^0.1.0", "@tsci/seveibar.push-button": "^0.1.0", "tscircuit": "^0.0.701" } }, "sha512-5cMGfxeIpQd95wFGziS+LVPAzLw71Gr+3S5KeHw2DR0IsFZwI1x+YuaOp2fU/u+jtYFjqXXZFBcE8xuM0MREDA=="],
 
     "@tsci/seveibar.push-button": ["@tsci/seveibar.push-button@0.1.0", "https://registry-api.tscircuit.com/package_files/download?package_name=seveibar%2Fpush-button&package_file_id=65fdcef2-c590-4b56-87f8-0644ae30b51d", {}, "sha512-9EzSPS0bom9zVYtrBmluIv8CTN3oMrKMmGQxV09dvfJy70It9luAlOPwxevx69W8ZG3LJCUJat+zLsBm7melLg=="],
 
