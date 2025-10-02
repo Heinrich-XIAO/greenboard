@@ -1,12 +1,19 @@
 import GreenpillModule from "@tsci/Heinrich-XIAO.greenpill"
+import { MicroModBoard } from "@tscircuit/common"
 
 export default () => (
-  <board>
+  <MicroModBoard name="micromod"
+    connections={{
+      GND2: "net.GND"
+    }}
+    schX={20}
+  >
     <GreenpillModule
       name="a"
+      pcbY={0}
+      pcbX={-1}
+      resetButton={false}
     />
-    <resistor resistance="1k" footprint="0402" name="R1" schX={3} pcbX={3} />
-    <capacitor capacitance="1000pF" footprint="0402" name="C1" schX={-3} pcbX={-3} />
-    <trace from=".R1 > .pin1" to=".C1 > .pin1" />
-  </board>
+    <trace from="net.GND" to=".micromod > .GND2" />
+  </MicroModBoard>
 )

@@ -1,6 +1,6 @@
 {
   "name": "@tsci/Heinrich-XIAO.greenboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.tsx",
   "keywords": [
     "tscircuit"
@@ -17,6 +17,7 @@
     "tscircuit": "^0.0.701"
   },
   "dependencies": {
-    "@tsci/Heinrich-XIAO.greenpill": "^1.0.5"
+    "@tsci/Heinrich-XIAO.greenpill": "^1.0.15",
+    "@tscircuit/common": "^0.0.5"
   }
 }
