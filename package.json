@@ -15,5 +15,8 @@
   "devDependencies": {
     "@types/react": "^19.2.0",
     "tscircuit": "^0.0.701"
+  },
+  "dependencies": {
+    "@tsci/Heinrich-XIAO.greenpill": "^1.0.5"
   }
 }

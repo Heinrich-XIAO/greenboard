@@ -3,6 +3,9 @@
   "workspaces": {
     "": {
       "name": "@tsci/Heinrich-XIAO.greenboard",
+      "dependencies": {
+        "@tsci/Heinrich-XIAO.greenpill": "^1.0.5",
+      },
       "devDependencies": {
         "@types/react": "^19.2.0",
         "tscircuit": "^0.0.701",
@@ -51,6 +54,12 @@
     "@pkgjs/parseargs": ["@pkgjs/parseargs@0.11.0", "", {}, "sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg=="],
 
     "@remix-run/router": ["@remix-run/router@1.23.0", "", {}, "sha512-O3rHJzAQKamUz1fvE0Qaw0xSFqsA/yafi2iqeE0pvdFtCO1viYx8QL6f3Ln/aCCTLxs68SLf0KPM9eSeM8yBnA=="],
+
+    "@tsci/Heinrich-XIAO.CH32V003F4P6": ["@tsci/Heinrich-XIAO.CH32V003F4P6@0.1.0", "https://registry-api.tscircuit.com/package_files/download?package_name=heinrich-xiao%2Fch32v003f4p6&package_file_id=ab00995e-21b9-4342-85ba-c7a2e2d26656", {}, "sha512-bezhZ363yJIve54SwXqKJwIDGFNW0OahWRktywYYnwpFWhs36QGbYj9IUTB/kEFqrQEm7bZ1ZMYqChoKgF82mA=="],
+
+    "@tsci/Heinrich-XIAO.greenpill": ["@tsci/Heinrich-XIAO.greenpill@1.0.5", "https://registry-api.tscircuit.com/package_files/download?package_name=heinrich-xiao%2Fgreenpill&package_file_id=6dc23b1a-29b5-4421-950e-802b361b214a", { "dependencies": { "@tsci/Heinrich-XIAO.CH32V003F4P6": "^0.1.0", "@tsci/seveibar.push-button": "^0.1.0", "tscircuit": "^0.0.701" } }, "sha512-XFrHk8FfvXx7VFEQsPgswbMtORAs4xREeMoxFOdRHwnkOWe4jZN8jR8sKk2QRXkA4xEnb2zRxOAAsfUxOKT4PA=="],
+
+    "@tsci/seveibar.push-button": ["@tsci/seveibar.push-button@0.1.0", "https://registry-api.tscircuit.com/package_files/download?package_name=seveibar%2Fpush-button&package_file_id=65fdcef2-c590-4b56-87f8-0644ae30b51d", {}, "sha512-9EzSPS0bom9zVYtrBmluIv8CTN3oMrKMmGQxV09dvfJy70It9luAlOPwxevx69W8ZG3LJCUJat+zLsBm7melLg=="],
 
     "@tscircuit/capacity-autorouter": ["@tscircuit/capacity-autorouter@0.0.107", "", { "dependencies": { "fast-json-stable-stringify": "^2.1.0", "object-hash": "^3.0.0" }, "peerDependencies": { "typescript": "^5.7.3" } }, "sha512-b4LTylZnrLrv0YQU615A4yzNJUt+/p5JWLBZgy+9IzIA7Q/ObYhpq+9rX/HLZ074T8rGxj1bV6z1g4cdSvdxFw=="],
 
