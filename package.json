@@ -1,6 +1,6 @@
 {
   "name": "@tsci/Heinrich-XIAO.greenboard",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.tsx",
   "keywords": [
     "tscircuit"
