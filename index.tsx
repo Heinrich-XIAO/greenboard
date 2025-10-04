@@ -32,7 +32,7 @@ export default () => (
       PC6={[".micromod > .SPI_SDO1"]}
       PC7={[".micromod > .SPI_SDI1"]}
       PD2={[".micromod > .G7"]}
-      PD3={[".micromod > .G8"]}
+      // PD3={[".micromod > .G8"]}
       PD4={[".micromod > .A0"]}
     />
     <trace
