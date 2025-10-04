@@ -8,8 +8,7 @@ export default () => (
       connections={{
         GND2: "net.GND"
       }}
-    >
-    </MicroModBoard>
+    />
     <trace
       from="net.VDD"
       to=".micromod > .V3_3_2"
