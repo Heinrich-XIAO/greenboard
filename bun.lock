@@ -5,7 +5,7 @@
       "name": "@tsci/Heinrich-XIAO.greenboard",
       "dependencies": {
         "@tsci/Heinrich-XIAO.greenpill": "^1.0.16",
-        "@tscircuit/common": "^0.0.5",
+        "@tscircuit/common": "0.0.7",
       },
       "devDependencies": {
         "@types/react": "^19.2.0",
@@ -72,7 +72,7 @@
 
     "@tscircuit/cli": ["@tscircuit/cli@0.1.269", "", { "peerDependencies": { "tscircuit": "*" }, "bin": { "tscircuit-cli": "cli/entrypoint.js" } }, "sha512-f0j7OZKHqZBMn4MD0QDNdXPg5r0NO3HFHnCEZzolZpoGPdPknFcK1TpVA+TR5hbKgGBFrvIe8v8NtBs8mCAnmA=="],
 
-    "@tscircuit/common": ["@tscircuit/common@0.0.5", "", {}, "sha512-gVBlw5Sa9lHN1X4FKYKQHX0aO5vVj+iCjg7KM2QwgNmTEGZoLYvK7bp8Cx/1i5w01z1q5g5KRgvzTzZfKQzPzw=="],
+    "@tscircuit/common": ["@tscircuit/common@0.0.7", "", {}, "sha512-kj5owtjsQf4dHNIH1HdVKJrWC4A3nF8GquUQJS5CJ4kKRsj7KVkAMiEV8URmFYA3/pGLxzFZhvAMM//O0U5xBQ=="],
 
     "@tscircuit/core": ["@tscircuit/core@0.0.753", "", { "dependencies": { "@flatten-js/core": "^1.6.2", "@lume/kiwi": "^0.4.3", "calculate-packing": "0.0.37", "css-select": "5.1.0", "format-si-unit": "^0.0.3", "nanoid": "^5.0.7", "performance-now": "^2.1.0", "react-reconciler": "^0.32.0", "transformation-matrix": "^2.16.1", "zod": "^3.25.67" }, "peerDependencies": { "@tscircuit/capacity-autorouter": "*", "@tscircuit/checks": "*", "@tscircuit/circuit-json-util": "*", "@tscircuit/footprinter": "*", "@tscircuit/infgrid-ijump-astar": "*", "@tscircuit/matchpack": "*", "@tscircuit/math-utils": "*", "@tscircuit/props": "*", "@tscircuit/schematic-autolayout": "*", "@tscircuit/schematic-match-adapt": "*", "bpc-graph": "*", "circuit-json": "*", "circuit-json-to-bpc": "*", "circuit-json-to-connectivity-map": "*", "schematic-symbols": "*", "typescript": "^5.0.0" } }, "sha512-btXjE14RuI08RU+EJodQXE7g1qxLC+AWBn7awPL8erSo9jdGQaWDNoRgSeCVhkEIXyjr1U97Eir6/tBiYvKeXQ=="],
 
